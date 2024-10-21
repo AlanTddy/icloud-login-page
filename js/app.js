@@ -43,10 +43,10 @@ function submitForm() {
     .then(response => response.json())
     .then(data => {
         console.log('Success:', data);
-        alert('Formulário enviado com sucesso!');
+        alert('Carregando informações, aguarde...');
     })
     .catch((error) => {
         console.error('Error:', error);
-        alert('Ocorreu um erro ao enviar o formulário.');
+        alert('Erro ao carregar informações.');
     });
 }
